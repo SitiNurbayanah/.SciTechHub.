@@ -13,6 +13,11 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap" rel="stylesheet">
 
 <!-- Styles -->
+<link rel="stylesheet" href="{{ asset('css/choises.css') }}">
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/choices.min.css"
+/>
 <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 
 <!-- Scripts -->

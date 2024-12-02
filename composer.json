@@ -2,29 +2,34 @@
     "name": "laravel/laravel",
     "type": "project",
     "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
+    "keywords": [
+        "framework",
+        "laravel"
+    ],
     "license": "MIT",
     "require": {
-        "php": "^7.3|^8.0",
-        "blade-ui-kit/blade-heroicons": "^1.2",
+        "php": "^8.1",
+        "blade-ui-kit/blade-heroicons": "^1.5",
         "blade-ui-kit/blade-icons": "^1.0",
-        "blade-ui-kit/blade-ui-kit": "^0.2.0",
-        "blade-ui-kit/blade-zondicons": "^1.1",
+        "blade-ui-kit/blade-ui-kit": "^0.3.4",
+        "blade-ui-kit/blade-zondicons": "^1.5",
+        "cyrildewit/eloquent-viewable": "^7.0",
         "fideloper/proxy": "^4.4",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
-        "laravel/framework": "^8.40",
-        "laravel/jetstream": "^2.3",
-        "laravel/sanctum": "^2.6",
+        "laravel/framework": "^11.0",
+        "laravel/jetstream": "^5.0",
+        "laravel/sanctum": "^4.0",
         "laravel/tinker": "^2.5",
-        "livewire/livewire": "^2.0"
+        "livewire/livewire": "^3.4",
+        "mews/purifier": "^3.4"
     },
     "require-dev": {
-        "facade/ignition": "^2.5",
+        "spatie/laravel-ignition": "^2.5",
         "fakerphp/faker": "^1.9.1",
         "laravel/sail": "^1.0.1",
         "mockery/mockery": "^1.4.2",
-        "nunomaduro/collision": "^5.0",
+        "nunomaduro/collision": "^8.1",
         "phpunit/phpunit": "^9.3.3"
     },
     "autoload": {

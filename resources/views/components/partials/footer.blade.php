@@ -1,7 +1,7 @@
-<footer class="p-5 bg-blue-500">
+<footer class="p-5 bg-green-500">
     <div class="text-white wrapper">
         <span>
-            &copy Copyright 2021
+            SciTechHub Team : Kelompok 2 - Sosio Informatika
         </span>
     </div>
 </footer>
